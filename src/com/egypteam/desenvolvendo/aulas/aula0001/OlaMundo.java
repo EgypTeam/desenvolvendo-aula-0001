@@ -8,6 +8,17 @@ package com.egypteam.desenvolvendo.aulas.aula0001;
 public class OlaMundo {
 
     /*
+     * Aqui, estamos declarando e inicializando uma propriedade pública "prop1" da classe "OlaMundo".
+     * É uma propriedade cujo tipo é a classe String
+     * Uma propriedade nada mais é que uma variável que é armazenada e associada a uma instância, ou seja, a um objeto
+     * A visibilidade tanto das propriedades podem ser:
+     *   "public" (Pode ser acessado a partir de qualquer classe)
+     *   "protected" (Pode ser acessada a partir do método de qualquer subclasse - falaremos sobre subclasses posteriormente)
+     *   "private" (Só pode ser acessada a partir da própria classe)
+     */
+    public String prop1 = "Olá, Mundo dentro de uma propriedade 1!";
+
+    /*
      * Aqui estamos declarando um método.
      * O método dada mais é que uma lógica (uma sequência de comandos, como um subprograma), que executa determinada tarefa, e em alguns casos, retorna um valor.
      * No caso abaixo, como estamos utilizando o tipo de retorno "void", a função não retorna nada.
@@ -33,6 +44,7 @@ public class OlaMundo {
         System.out.println(str2);
         System.out.println(c);
         System.out.println(String.format("Formatação de texto: %d", c));
+        System.out.println(prop1);
 
     }
 
