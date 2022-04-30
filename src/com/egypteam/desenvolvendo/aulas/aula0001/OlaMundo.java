@@ -14,11 +14,25 @@ public class OlaMundo {
      */
     public void digaOlaMundo() {
 
+        String str1;
+        String str2 = "Olá, Mundo Dois!";
+
+        str1 = "Olá, Mundo Um!";
+
+        int a = 2;
+        int b = 3;
+        int c = a + b;
+
         // Isto é um comentário
         // Comandos simples basicamente chamam métodos de um objeto, que é uma instância de uma classe
         // O comando abaixo chama o método "println" do objeto instanciado em System.out, com um único parâmetro "Olá, Mundo"
         // Este método desempenha a função de imprimir um texto na saída padrão, que no caso é a tela da linha de comando.
         System.out.println("Olá, Mundo!");
+
+        System.out.println(str1);
+        System.out.println(str2);
+        System.out.println(c);
+        System.out.println(String.format("Formatação de texto: %d", c));
 
     }
 
@@ -26,7 +40,7 @@ public class OlaMundo {
      * O método estático main é um padrão adotado pelo Java e pela JVM
      * Quando você executa a classe através do comando java, a JVM faz uma chamada para o método main, que é chamado de entry point (ou ponto de entrada)
      * Por essa razão, quando você compilou o programa e executou a classe, o programa imprimiu (exibiu) na tela o texto "Olá, Mundo".
-     * Neste novo exemplo, modificamos o método main para utilizar uma instância da classe "OlaMundo" e chamar o método "digaOlaMundo", para exemplificar comandos de chamada.
+     * Neste novo exemplo, modificamos o método mai n para utilizar uma instância da classe "OlaMundo" e chamar o método "digaOlaMundo", para exemplificar comandos de chamada.
      */
     public static void main(String[] args) {
 
