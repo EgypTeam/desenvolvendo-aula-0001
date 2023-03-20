@@ -1,3 +1,3 @@
 #!/bin/sh
 
-java -cp bin com.egypteam.desenvolvendo.aulas.aula0001.OlaMundo
+java -cp bin com.egypteam.desenvolvendo.aulas.aula0002.Main
